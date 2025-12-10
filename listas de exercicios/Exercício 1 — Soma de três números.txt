@@ -1,0 +1,19 @@
+Exercício 1 — Soma de três números ✅
+
+Crie uma função que receba três números e retorne a soma deles. Depois, imprima o resultado.
+
+Exercício 2 — Área de um retângulo ✅
+
+Crie uma função que receba base e altura de um retângulo e retorne a área. Depois, use print para mostrar o resultado.
+
+Exercício 3 — Concatenação de palavras
+
+Crie uma função que receba duas palavras e retorne uma única palavra, juntando as duas. Depois, imprima o resultado.
+
+Exercício 4 — Dobro de um número
+
+Crie uma função que receba um número e retorne o dobro dele. Teste a função imprimindo o resultado para alguns números diferentes.
+
+Exercício 5 — Média de três notas
+
+Crie uma função que receba três notas e retorne a média. Depois, mostre a média usando print.
