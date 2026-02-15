@@ -1,1 +1,1 @@
-print('hello word')
+bom dia
