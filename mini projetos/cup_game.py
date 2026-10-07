@@ -7,7 +7,7 @@ while True:
         print('acertou!')
     else:
         print('errou!')
-    continuar=input('deseja jogar denovo? [sim/não]: ')
-    if continuar!='sim':
+    continuar=input('deseja jogar denovo? [s/n]: ')
+    if continuar!='s':
         break
 print('obrigado por jogar!')

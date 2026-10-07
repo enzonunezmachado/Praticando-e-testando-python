@@ -46,7 +46,7 @@ while True:
     ]
     escolha_pc=random.choice(faces_dado)
     print(escolha_pc)
-    escolha=input('deseja jogar novamente o dado? [s/n]: ')
+    escolha=input('deseja jogar novamente o dado? [s/n]: ').lower()
     if escolha!='s':
         break
 print('programa finalizado!')
