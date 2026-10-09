@@ -14,16 +14,16 @@ while True:
 
     move_pc=pc_choise()
 
-    player=input('escolha pedra, papel ou tesoura : ')
+    player=input('Escolha pedra, papel ou tesoura : ')
 
     if move_pc==player:
         escolha=input('empate jogar novamente? [s/n]: ')
     elif (move_pc == 'papel' and player == 'pedra') or \
          (move_pc == 'pedra' and player == 'tesoura') or \
          (move_pc == 'tesoura' and player == 'papel'):
-        escolha = input('Você ganhou! Deseja jogar novamente? [s/n]: ')
+        escolha = input('Você perdeu! Deseja jogar novamente? [s/n]: ')
     else:
-        escolha=input(f'você ganhou! deseja jogar novamente? [s/n]: ')
+        escolha=input(f'Você ganhou! Deseja jogar novamente? [s/n]: ')
     if escolha!='s':
         break
-print('obrigado por jogar!')
+print('Obrigado por jogar!')
